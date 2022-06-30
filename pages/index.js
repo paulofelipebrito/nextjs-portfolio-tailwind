@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Main from './../components/Main';
 
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
         <meta name="description" content="I’m a full stack web developer specializing in building exceptional digital experiences." />
         <link rel="icon" href="/fav.png" />
       </Head>
+      <Main />
     </div>
   )
 }
