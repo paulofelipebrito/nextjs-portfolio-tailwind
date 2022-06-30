@@ -6,10 +6,10 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Paulo | Resume</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='I’m a full stack web developer specializing in building exceptional digital experiences.'
         />
         <link rel='icon' href='/fav.png' />
       </Head>
@@ -17,17 +17,17 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Paulo Felipe Brito</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/paulofelipebrito/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/paulofelipebrito'
               target='_blank'
               rel='noreferrer'
             >
@@ -136,7 +136,7 @@ const resume = () => {
           </ul>
         </div>
         {/* Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold'>CITY OF SHERMAN, TX</span>
             <span className='px-2'>|</span>Sherman, TX
@@ -170,7 +170,7 @@ const resume = () => {
               Support, among others.
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </>
   );
