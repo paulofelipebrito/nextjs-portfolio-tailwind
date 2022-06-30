@@ -110,7 +110,7 @@ const resume = () => {
           </ul>
         </div>
         {/* Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold'>Preston EMS</span>
             <span className='px-2'>|</span>Grayson County, TX
@@ -134,7 +134,7 @@ const resume = () => {
               awareness to training methods.
             </li>
           </ul>
-        </div> */}
+        // </div> */} 
         {/* Experience */}
         {/* <div className='py-6'>
           <p className='italic'>
