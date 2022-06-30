@@ -82,7 +82,7 @@ const resume = () => {
           Professional Experience
         </h5>
         {/* Experience */}
-        <div className='py-6'>
+        {/* <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
               BIGCOMMERCE, SHOPIFY, WOOCOMMERCE
@@ -134,7 +134,7 @@ const resume = () => {
               awareness to training methods.
             </li>
           </ul>
-        </div>
+        </div> */}
         {/* Experience */}
         {/* <div className='py-6'>
           <p className='italic'>
